@@ -1,4 +1,4 @@
-# Demo of Next.js inline script onLoad issue
+# Demo of Next.js inline script onLoad potential issue
 
 **UPDATE**: HTML `script` doesn't fire `load` events for inline scripts, so it makes sense `next/script` doesn't fire them either. Probably, the right solution is to use the `onReady` prop to check if an inline script has been mounted, regardless of its loading strategy.
 
