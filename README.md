@@ -4,4 +4,4 @@ This is a demo project to illustrate a potential issue found with `next/script` 
 
 Run locally with `yarn dev`
 
-Deployed to Vercel at 
+Deployed with Vercel to [https://nextjs-inline-script-onload-issue-demo.vercel.app/](https://nextjs-inline-script-onload-issue-demo.vercel.app/) 
